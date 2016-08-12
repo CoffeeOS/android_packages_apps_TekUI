@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.xos.tekui" platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+    <uses-feature android:name="org.cyanogenmod.theme" android:required="true"/>
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author"/>
+    <meta-data android:name="org.cyanogenmod.theme.email" android:value="@string/theme_email"/>
+    <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="@string/theme_name">
+        <meta-data android:name="arcus.support" android:value="true"/>
+    </application>
+</manifest>
